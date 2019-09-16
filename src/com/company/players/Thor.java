@@ -19,11 +19,12 @@ public class Thor extends Hero {
         int a = r.nextInt(2);
 
         if (a == 1) {
+
             boss.setDamage(0);
             System.out.println("Thor stunned the boss");
+        } else {
             boss.setDamage(30);
         }
-
     }
 }
 
